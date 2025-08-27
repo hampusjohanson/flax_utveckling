@@ -1,0 +1,8 @@
+<customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui">
+  <ribbon>
+    <tabs>
+      <!-- RibbonX content as provided above -->
+      <!-- ...existing code... -->
+    </tabs>
+  </ribbon>
+</customUI>
