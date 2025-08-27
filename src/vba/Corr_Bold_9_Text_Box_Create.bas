@@ -1,0 +1,23 @@
+Attribute VB_Name = "Corr_Bold_9_Text_Box_Create"
+
+
+
+Sub Corr_Bold_9_Text_Box_Create()
+    On Error Resume Next ' Avoid breaking if a macro fails
+
+      Application.Run "Corr_Bold_9999"
+    If Err.Number <> 0 Then MsgBox "Error: " & Err.Description
+    DoEvents
+
+      Application.Run "Corr_Bold_999"
+    If Err.Number <> 0 Then MsgBox "Error: " & Err.Description
+    DoEvents
+
+    
+    
+
+End Sub
+
+
+
+
